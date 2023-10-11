@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Te amo</title>
+    <style>
+        body{
+            background-color: aliceblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .heart{
+            font-size: 10rem;
+            animation: heart .5s infinite alternate;
+            linear: 0;
+        }
+
+        @keyframes heart {
+            from{
+                transform: scale(.7);
+            }
+            to{
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>Te amo con todo mi corazon <br></div>
+    
+    <div class="heart">❤️‍🩹</div>
+</body>
+</html>
